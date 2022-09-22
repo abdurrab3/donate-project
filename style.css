@@ -1,0 +1,331 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    margin-top: -4%;
+}
+
+/*start of first page*/
+.first-page {
+    background-image: url(image/image-11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 625px;
+}
+
+.first-page h1 {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 60px;
+    color: rgb(243, 14, 224);
+}
+
+.first-page p {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255, 230, 10);
+}
+
+.anchor-button {
+    text-align: center;
+    background-color: tomato;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 41%;
+    margin-left: 41%;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.anchor-button a {
+    text-decoration: none;
+    color: rgb(179, 4, 164);
+}
+
+/*end of first section*/
+
+/*start of second section*/
+.donate-today-s {
+    margin-top: -2%;
+    background-color: bisque;
+    width: 100%;
+    height: 615px;
+}
+
+.donate-today h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 2%;
+}
+
+.donate-today p {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 18px;
+}
+
+.takar-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+}
+
+.takar-item h2 {
+    background-color: rgb(209, 201, 194);
+    margin-top: -15%;
+    padding: 40px;
+    border-radius: 10px;
+    border: 5px solid rgb(226, 160, 206);
+}
+
+#select-taka {
+    background-color: rgb(4, 240, 240);
+    color: rgb(187, 63, 245);
+    border: 5px solid tomato;
+    border-radius: 10px
+}
+
+.takar-item-input {
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    text-align: center;
+    margin-top: -12%;
+    color: none;
+
+}
+
+input {
+    border: 0;
+    outline: 0;
+    text-align: center;
+    font-size: 15px;
+    background-color: bisque;
+
+}
+
+.takar-item-input button {
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 16px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: aquamarine;
+    text-decoration: none;
+    border: none;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(255, 0, 242);
+    border-radius: 10px;
+}
+
+/*end of second section*/
+/* start of our don plan*/
+.o-d-plan h2 {
+    padding-top: 3%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.o-d-plan p {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.o-d-p-side {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+
+.coloring-1 {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin-right: 3.33%;
+    padding-bottom: 10px;
+}
+
+.coloring-2 {
+    background-color: rgb(178, 226, 220);
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.coloring-3 {
+    background-color: rgb(201, 228, 190);
+    border-radius: 5px;
+    margin-left: 3.33%;
+    padding-bottom: 10px;
+}
+
+.coloring-1 img {
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.coloring-1 h3 {
+    padding-left: 30px;
+    font-size: 20px;
+    color: rgb(71, 55, 55);
+}
+
+.coloring-1 p {
+    text-align: left;
+}
+
+.coloring-2 img {
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.coloring-2 h3 {
+    padding-left: 30px;
+    font-size: 20px;
+    color: rgb(71, 55, 55);
+}
+
+.coloring-2 p {
+    text-align: left;
+}
+
+.coloring-3 img {
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.coloring-3 h3 {
+    padding-left: 30px;
+    font-size: 20px;
+    color: rgb(71, 55, 55);
+
+}
+
+.coloring-3 p {
+    text-align: left;
+}
+
+/*end of our don plan part*/
+/*start of depend on life 4th part*/
+.their-life-depend {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+    height: 500px;
+    border-radius: 25px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.half-width h1 {
+    font-size: 60px;
+    color: rgb(255, 129, 26);
+    padding-left: 10%;
+    padding-top: 6%;
+}
+
+.half-width p {
+    padding-left: 10%;
+    color: rgb(113, 117, 117);
+    font-size: 20px;
+}
+
+.button-a {
+    text-align: center;
+    margin-top: 10%;
+    background-color: aqua;
+    margin-left: 34%;
+    margin-right: 34%;
+    padding: 24px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.button-a a {
+    text-decoration: none;
+}
+
+/*end of depend on part*/
+/*Start of get update part*/
+.get-my-update {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.get-my-update div {
+    background-color: bisque;
+    text-align: center;
+    padding: 70px;
+    padding-left: 0%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 7%;
+}
+
+.email {
+    background-color: rgb(182, 177, 172);
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    background-color: tomato;
+    padding: 10px;
+    margin-left: -9px;
+    border: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.get-my-update h1 {
+    font-size: 60px;
+}
+
+.get-my-update p {
+    font-size: 15px;
+}
+
+/*end of get update part*/
+/*Start of Footer part*/
+footer {
+    margin-top: 10%;
+    background-color: rgb(22, 22, 58);
+    height: 150px;
+}
+
+footer h3 {
+    color: rgb(255, 0, 170);
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(175, 182, 189);
+    text-align: center;
+    font-size: 16px;
+    padding-top: -10px;
+}
+
+/*End of Footer part*/
